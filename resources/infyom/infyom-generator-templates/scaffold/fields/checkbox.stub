@@ -1,0 +1,11 @@
+<!-- $FIELD_NAME_TITLE$ Field -->
+<div class="form-group row">
+    {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$',['class' => 'col-md-3 label-control']) !!}
+    <div class="col-md-9 skin-flat">
+        <fieldset>
+            {!! Form::hidden('$FIELD_NAME$', false) !!}
+            {!! Form::checkbox('$FIELD_NAME$', '$CHECKBOX_VALUE$', null) !!}
+            <label for="input-15">$CHECKBOX_VALUE$</label>
+        </fieldset>
+    </div>
+</div>

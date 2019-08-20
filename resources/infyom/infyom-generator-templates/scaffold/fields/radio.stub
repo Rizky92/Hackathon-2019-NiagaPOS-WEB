@@ -1,0 +1,9 @@
+<div class="form-group row">
+    {!! Form::label('nama', 'Nama Lengkap',['class' => 'col-md-3 label-control']) !!}
+    <div class="col-md-9 skin-flat">
+        <fieldset>
+            {!! Form::radio('$FIELD_NAME$', "$VALUE$", null) !!}
+            <label for="input-radio-15">  $LABEL$</label>
+        </fieldset>
+    </div>
+</div>

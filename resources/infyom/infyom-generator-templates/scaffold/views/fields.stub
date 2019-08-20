@@ -1,0 +1,11 @@
+$FIELDS$
+
+<!-- Submit Field -->
+<div class="form-actions">
+    <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-danger">
+        <i class="fa fa-check-square-o"></i> Cancel
+    </a>
+    <button type="submit" class="btn btn-success mr-1">
+        <i class="ft-x"></i> Save
+    </button>
+</div>
